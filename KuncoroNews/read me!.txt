@@ -1,0 +1,3 @@
+1. copy folder android ke web server kemudian edit file koneksi.php dan sesuikan web server anda
+2. buat database kuncoro_news kemudian import kuncoronews.sql
+3. buka andoid studio, kemudian load project KuncoroNews
