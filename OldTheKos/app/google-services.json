@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "553135361129",
+    "firebase_url": "https://thekos-7c455.firebaseio.com",
+    "project_id": "thekos-7c455",
+    "storage_bucket": "thekos-7c455.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553135361129:android:82501c450e1f3b16",
+        "android_client_info": {
+          "package_name": "com.arioki.thekos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553135361129-l9q80dt0ep0fuhssvvkolbfkgk5tokm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuZP_KO0Wx9ADN5vIDE5tzrpUNEWzrEsA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

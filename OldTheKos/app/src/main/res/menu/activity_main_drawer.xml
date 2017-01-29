@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TODO: Menu !-->
+    <group
+        android:id="@+id/nav_grub1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home"/>
+<!--
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Chat"/>
+!-->
+        <item
+            android:id="@+id/nav_favorit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Favorit" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="History" />
+     </group>
+
+    <group
+        android:id="@+id/nav_grub2"
+        android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_tambahkos"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tambah Kos" />
+        <!--
+            <item
+                android:id="@+id/nav_listkos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Lihat Kos" />
+        !-->
+    </group>
+
+    <group
+        android:id="@+id/nav_grub3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Setting" >
+        </item>
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="LogIn" >
+        </item>
+
+    </group>
+
+</menu>
