@@ -18,8 +18,8 @@ import java.io.UnsupportedEncodingException;
 import cz.msebera.android.httpclient.HttpEntity;
 import cz.msebera.android.httpclient.entity.mime.MultipartEntityBuilder;
 import cz.msebera.android.httpclient.entity.mime.content.FileBody;
-import heends.uploadfile.Template.EndpointAPI;
-import heends.uploadfile.Template.Template;
+import com.arioki.sampleuploadvolley.Template.EndpointAPI;
+import com.arioki.sampleuploadvolley.Template.Template;
 
 
 /**

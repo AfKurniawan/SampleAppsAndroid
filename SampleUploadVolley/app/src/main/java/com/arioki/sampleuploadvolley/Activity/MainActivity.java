@@ -22,12 +22,12 @@ import com.android.volley.VolleyError;
 
 import java.io.File;
 
-import heends.uploadfile.R;
-import heends.uploadfile.Template.Template;
-import heends.uploadfile.Utils.FileManager;
-import heends.uploadfile.Utils.MultiPartRequest;
-import heends.uploadfile.Utils.StringParser;
-import heends.uploadfile.Utils.VolleySingleton;
+import com.arioki.sampleuploadvolley.R;
+import com.arioki.sampleuploadvolley.Template.Template;
+import com.arioki.sampleuploadvolley.Utils.FileManager;
+import com.arioki.sampleuploadvolley.Utils.MultiPartRequest;
+import com.arioki.sampleuploadvolley.Utils.StringParser;
+import com.arioki.sampleuploadvolley.Utils.VolleySingleton;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -254,7 +254,7 @@ public class MainActivity extends AppCompatActivity {
                 mMediaPlayer.start();
             } else {
                 mImage.setVisibility(ImageView.VISIBLE);
-                mImage.setImageResource(R.drawable.ic_android_green_500_48dp);
+                mImage.setImageResource(R.drawable.ic_pause);
             }
 
         }

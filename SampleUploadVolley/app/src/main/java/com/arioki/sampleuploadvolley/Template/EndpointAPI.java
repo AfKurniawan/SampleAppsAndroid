@@ -5,6 +5,6 @@ package com.arioki.sampleuploadvolley.Template;
  */
 public interface EndpointAPI {
     //Lokasi file upload_file.php diserver
-    String ANDEVINDO =   "http://andevindo.uphero.com/php/upload_file.php";
-    //String ANDEVINDO =  "http://192.168.43.57/xampp/andevindo/php/upload_file.php";
+   // String ANDEVINDO =   "http://andevindo.uphero.com/php/upload_file.php";
+    String ANDEVINDO =  "http://192.168.137.1/upbsbs/include/upload_file.php";
 }

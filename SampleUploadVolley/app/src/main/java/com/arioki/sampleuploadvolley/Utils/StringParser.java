@@ -6,7 +6,7 @@ package com.arioki.sampleuploadvolley.Utils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import heends.uploadfile.Template.Template;
+import com.arioki.sampleuploadvolley.Template.Template;
 
 /**
  * Created by -H- on 10/12/2015.

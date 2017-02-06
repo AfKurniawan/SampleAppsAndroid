@@ -1,5 +1,4 @@
-package com.arioki.sampleuploadvolley;
-
+package com.arioki.sampleuploadvolley.Application;
 import android.app.Application;
 import android.content.Context;
 

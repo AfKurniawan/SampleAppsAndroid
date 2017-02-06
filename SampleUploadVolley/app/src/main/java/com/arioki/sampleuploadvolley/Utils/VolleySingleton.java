@@ -3,7 +3,7 @@ package com.arioki.sampleuploadvolley.Utils;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
-import heends.uploadfile.Application.MyApplication;
+import com.arioki.sampleuploadvolley.Application.MyApplication;
 
 
 /**
