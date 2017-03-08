@@ -7,26 +7,52 @@
     tools:context="com.arioki.amalanharian.Home">
 
     <TextView
-        android:text="Kata Kata Mutiara"
+        android:id="@+id/txtMutiara"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:id="@+id/txtMutiara"
-        android:layout_margin="5dp"/>
+        android:layout_margin="5dp"
+        android:text="Kata Kata Mutiara" />
 
-    <Button
-        android:id="@+id/btnList"
-        android:text="List Laporan Harian"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llMenu"
+        android:layout_below="@id/txtMutiara">
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical|center_horizontal"
-        android:layout_above="@+id/btnLapor" />
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:weightSum="2">
 
-    <Button
-        android:id="@+id/btnLapor"
-        android:text="Laporan Sekarang"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical|center_horizontal"
-        android:layout_alignParentBottom="true" />
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_above="@+id/btnLapor"
+            android:layout_weight="1"
+            android:background="#eeeeeeee"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="List Laporan Harian dalm Bentuk swiipe circle" />
+
+        <Button
+            android:id="@+id/btnLapor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#2fb15d"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Laporan Sekarang" />
+    </LinearLayout>
+
 </RelativeLayout>
